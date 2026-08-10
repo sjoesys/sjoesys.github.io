@@ -1,118 +1,116 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="sjoe — 北京理工大学自动化专业本科生，研究兴趣包括具身智能、计算机视觉与世界模型。">
-  <meta name="theme-color" content="#f6f4ef">
-  <title>sjoe · Embodied Intelligence</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="sjoe — Automation undergraduate at Beijing Institute of Technology, interested in embodied intelligence, computer vision, and world models.">
+  <meta name="theme-color" content="#ffffff">
+  <title>sjoe</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="返回首页">SJOE<span class="brand-dot">.</span></a>
-    <nav aria-label="主导航">
-      <a href="#about">关于</a>
-      <a href="#research">科研</a>
-      <a href="#awards">奖项</a>
-      <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub ↗</a>
+  <header class="topbar">
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="site-name active" href="#about">sjoe</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#honors">Honors</a>
+        <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☀</button>
+      </div>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="eyebrow"><span></span> OPEN TO RESEARCH & COLLABORATION</div>
-      <h1 id="hero-title">探索能够理解世界<br>并在其中行动的智能体。</h1>
-      <p class="hero-en">Exploring intelligent agents that perceive, understand, and act in the physical world.</p>
-      <div class="hero-meta">
-        <span>北京理工大学 · 自动化</span>
-        <span>ININ Lab · Research Intern</span>
-        <span>Beijing, China</span>
-      </div>
-      <a class="scroll-link" href="#about">向下了解更多 <span>↓</span></a>
-    </section>
+  <main class="layout">
+    <aside class="profile" aria-label="Profile">
+      <img class="avatar" src="avatar.jpg" alt="sjoe's profile photo">
+      <h1>sjoe</h1>
+      <p class="tagline">Automation undergraduate and embodied intelligence enthusiast.</p>
+      <ul class="profile-links">
+        <li><span aria-hidden="true">●</span> Beijing, China</li>
+        <li><span aria-hidden="true">◆</span> Beijing Institute of Technology</li>
+        <li><span aria-hidden="true">◈</span> ININ Lab</li>
+        <li><span aria-hidden="true">✉</span> <a href="mailto:sjoe66997@gmail.com">Email</a></li>
+        <li><span aria-hidden="true">⌘</span> <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a></li>
+      </ul>
+    </aside>
 
-    <section class="section about" id="about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content two-column">
-        <h2>你好，我是<br><span>sjoe</span>。</h2>
-        <div class="body-copy">
-          <p>我目前是北京理工大学自动化专业大三本科生，并在 ININ 实验室实习。我的兴趣聚焦于具身智能、计算机视觉与世界模型。</p>
-          <p>我希望研究智能体如何从视觉与交互数据中学习环境表征，并将感知、预测与决策连接起来，最终在真实世界中可靠地完成任务。</p>
-          <div class="interest-list" aria-label="研究兴趣">
-            <span>Embodied Intelligence</span>
-            <span>Computer Vision</span>
-            <span>World Models</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <article class="content">
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          Hi, I'm <strong>sjoe</strong>, a junior undergraduate student majoring in Automation at
+          <strong>Beijing Institute of Technology</strong>. I am currently a research intern at the
+          <strong>ININ Lab</strong>.
+        </p>
+        <p>
+          I am interested in building intelligent systems that can perceive, understand, and act in
+          the physical world.
+        </p>
+      </section>
 
-    <section class="section research" id="research">
-      <div class="section-label">02 / RESEARCH</div>
-      <div class="section-content">
-        <div class="section-heading">
-          <h2>科研成果</h2>
-          <p>Selected research</p>
-        </div>
-        <article class="research-card">
-          <div class="card-index">01</div>
-          <div class="card-main">
-            <div class="paper-status">UNDER REVIEW · IEEE T-RO</div>
-            <h3>ViGen: Bridging Videos to Robot Manipulation via 3DGS Data Generation and Privileged Learning</h3>
-            <p class="paper-role">Second Author · 二作</p>
-            <p>面向视频到机器人操作的学习框架，通过 3DGS 数据生成与特权学习连接视觉数据和真实机器人操作。</p>
-            <div class="contribution">
-              <span>MY CONTRIBUTION</span>
-              <p>主要负责真实机器人实验，以及面向物体泛化的数据增强。</p>
-            </div>
-          </div>
-          <div class="card-mark">V</div>
-        </article>
-      </div>
-    </section>
+      <section>
+        <h2>Research Interests</h2>
+        <p>My research interests center on embodied intelligence and visual learning, with a focus on:</p>
+        <ul class="interest-list">
+          <li>Embodied intelligence and robot learning</li>
+          <li>Computer vision and 3D scene reconstruction</li>
+          <li>World models and visual representation learning</li>
+        </ul>
+      </section>
 
-    <section class="section awards" id="awards">
-      <div class="section-label">03 / AWARDS</div>
-      <div class="section-content">
-        <div class="section-heading">
-          <h2>竞赛奖项</h2>
-          <p>Competition honors</p>
+      <section id="research">
+        <h2>Selected Publication</h2>
+        <div class="publication">
+          <h3>ViGen: Bridging Videos to Robot Manipulation via 3DGS Data Generation and Privileged Learning</h3>
+          <p class="venue">Under review at IEEE Transactions on Robotics (T-RO)</p>
+          <p><strong>Second author.</strong> My contributions focus on real-robot experiments and data augmentation for object generalization.</p>
         </div>
-        <ol class="award-list">
+      </section>
+
+      <section id="honors">
+        <h2>Honors</h2>
+        <ul class="honor-list">
           <li>
-            <span class="award-year">—</span>
-            <div>
-              <h3>第八届中国高校智能机器人创新创意大赛</h3>
-              <p>国家级二等奖 · 省级一等奖</p>
-            </div>
-            <span class="award-level">NATIONAL</span>
+            <strong>National Second Prize</strong>
+            <span>The 8th China University Intelligent Robot Innovation Competition</span>
+            <small>Provincial First Prize</small>
           </li>
           <li>
-            <span class="award-year">—</span>
-            <div>
-              <h3>中国智能机器人格斗及竞技大赛</h3>
-              <p>国家级一等奖</p>
-            </div>
-            <span class="award-level">NATIONAL</span>
+            <strong>National First Prize</strong>
+            <span>China Intelligent Robot Fighting and Competition Contest</span>
           </li>
-        </ol>
-      </div>
-    </section>
+        </ul>
+      </section>
 
-    <section class="contact">
-      <p>LET'S BUILD SOMETHING MEANINGFUL.</p>
-      <h2>欢迎交流研究与合作。</h2>
-      <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub @sjoesys ↗</a>
-    </section>
+      <section>
+        <h2>Contact</h2>
+        <p>Feel free to reach out via <a href="mailto:sjoe66997@gmail.com">email</a> or <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a> for research discussions or collaboration.</p>
+      </section>
+    </article>
   </main>
 
   <footer>
-    <span>© 2026 sjoe</span>
-    <span>Built with curiosity in Beijing.</span>
+    <div>© 2026 sjoe</div>
+    <div>Last updated August 2026</div>
   </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const preferred = localStorage.getItem('theme');
+    if (preferred === 'dark') document.documentElement.dataset.theme = 'dark';
+
+    const syncIcon = () => {
+      toggle.textContent = document.documentElement.dataset.theme === 'dark' ? '☾' : '☀';
+    };
+
+    toggle.addEventListener('click', () => {
+      const dark = document.documentElement.dataset.theme !== 'dark';
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+      syncIcon();
+    });
+    syncIcon();
+  </script>
 </body>
 </html>
