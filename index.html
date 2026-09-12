@@ -16,6 +16,7 @@
         <a href="#research">Research</a>
         <a href="#honors">Honors</a>
         <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a>
+        <button id="lang-toggle" type="button" aria-label="Switch language" title="Switch language">中</button>
         <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☀</button>
       </div>
     </nav>
@@ -25,7 +26,7 @@
     <aside class="profile" aria-label="Profile">
       <img class="avatar" src="avatar.jpg" alt="sjoe's profile photo">
       <h1>sjoe</h1>
-      <p class="tagline">Automation undergraduate and embodied intelligence enthusiast.</p>
+      <p class="tagline" data-en="Automation undergraduate and embodied intelligence enthusiast." data-zh="自动化专业本科生，关注具身智能与视觉学习。">Automation undergraduate and embodied intelligence enthusiast.</p>
       <ul class="profile-links">
         <li><span aria-hidden="true">●</span> Beijing, China</li>
         <li><span aria-hidden="true">◆</span> Beijing Institute of Technology</li>
@@ -37,67 +38,79 @@
 
     <article class="content">
       <section id="about">
-        <h2>About me</h2>
-        <p>
+        <h2 data-en="About me" data-zh="关于我">About me</h2>
+        <p data-en="Hi, I'm <strong>sjoe</strong>, a junior undergraduate student majoring in Automation at <strong>Beijing Institute of Technology</strong>. I have been fortunate to work as a research intern at the <strong>ININ Lab</strong> since September 2025, advised by <a href=&quot;https://yfyue-bit.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;>Professor Yufeng Yue</a>." data-zh="你好，我是 <strong>sjoe</strong>，目前是 <strong>北京理工大学</strong> 自动化专业本科生。自 2025 年 9 月起，我有幸在 <strong>ININ Lab</strong> 担任科研实习生，指导老师为 <a href=&quot;https://yfyue-bit.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;>岳玉峰教授</a>。">
           Hi, I'm <strong>sjoe</strong>, a junior undergraduate student majoring in Automation at
           <strong>Beijing Institute of Technology</strong>. I have been fortunate to work as a research intern at the
           <strong>ININ Lab</strong> since September 2025, advised by
           <a href="https://yfyue-bit.github.io/" target="_blank" rel="noreferrer">Professor Yufeng Yue</a>.
         </p>
-        <p>
+        <p data-en="I am interested in building intelligent systems that can perceive, understand, and act in the physical world." data-zh="我对构建能够在真实物理世界中感知、理解并行动的智能系统感兴趣。">
           I am interested in building intelligent systems that can perceive, understand, and act in
           the physical world.
         </p>
       </section>
 
       <section>
-        <h2>Research Interests</h2>
-        <p>My research interests center on embodied intelligence and visual learning, with a focus on:</p>
+        <h2 data-en="Research Interests" data-zh="研究兴趣">Research Interests</h2>
+        <p data-en="My research interests center on embodied intelligence and visual learning, with a focus on:" data-zh="我的研究兴趣主要围绕具身智能与视觉学习，包括：">My research interests center on embodied intelligence and visual learning, with a focus on:</p>
         <ul class="interest-list">
-          <li>Embodied intelligence and robot learning</li>
-          <li>Computer vision and 3D scene reconstruction</li>
-          <li>World models and visual representation learning</li>
+          <li data-en="Embodied intelligence and robot learning" data-zh="具身智能与机器人学习">Embodied intelligence and robot learning</li>
+          <li data-en="Computer vision and 3D scene reconstruction" data-zh="计算机视觉与三维场景重建">Computer vision and 3D scene reconstruction</li>
+          <li data-en="World models and visual representation learning" data-zh="世界模型与视觉表征学习">World models and visual representation learning</li>
         </ul>
       </section>
 
       <section id="research">
-        <h2>Selected Publication</h2>
+        <h2 data-en="Selected Publications" data-zh="代表论文">Selected Publications</h2>
+        <div class="publication">
+          <h3><a href="https://physreal.github.io/anonymous_web/" target="_blank" rel="noreferrer">PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling</a></h3>
+          <p class="venue" data-en="August 2026 · Under review at IEEE Robotics and Automation Letters (RA-L)" data-zh="2026 年 8 月 · IEEE Robotics and Automation Letters (RA-L) 在审">August 2026 · Under review at IEEE Robotics and Automation Letters (RA-L)</p>
+          <p data-en="<strong>Second author.</strong>" data-zh="<strong>第二作者。</strong>"><strong>Second author.</strong></p>
+        </div>
         <div class="publication">
           <h3>ViGen: Bridging Videos to Robot Manipulation via 3DGS Data Generation and Privileged Learning</h3>
-          <p class="venue">Under review at IEEE Transactions on Robotics (T-RO)</p>
-          <p><strong>Second author.</strong> My contributions focus on real-robot experiments and data augmentation for object generalization.</p>
+          <p class="venue" data-en="May 2026 · Under review at IEEE Transactions on Robotics (T-RO)" data-zh="2026 年 5 月 · IEEE Transactions on Robotics (T-RO) 在审">May 2026 · Under review at IEEE Transactions on Robotics (T-RO)</p>
+          <p data-en="<strong>Second author.</strong> My contributions focus on real-robot experiments and data augmentation for object generalization." data-zh="<strong>第二作者。</strong>主要贡献包括真实机器人实验以及面向物体泛化的数据增强。"><strong>Second author.</strong> My contributions focus on real-robot experiments and data augmentation for object generalization.</p>
         </div>
       </section>
 
       <section id="honors">
-        <h2>Honors</h2>
+        <h2 data-en="Honors" data-zh="荣誉奖项">Honors</h2>
         <ul class="honor-list">
           <li>
-            <strong>National Second Prize</strong>
-            <span>The 8th China University Intelligent Robot Innovation Competition</span>
-            <small>Provincial First Prize</small>
+            <strong data-en="Runner-up" data-zh="亚军">Runner-up</strong>
+            <span data-en="Dexterous Hand Challenge, 2nd World Humanoid Robot Games" data-zh="第二届世界人形机器人运动会灵巧手专项赛">Dexterous Hand Challenge, 2nd World Humanoid Robot Games</span>
+            <small data-en="August 2026 · Cable connection and powder weighing tasks" data-zh="2026 年 8 月 · 线缆连接与粉末称量项目">August 2026 · Cable connection and powder weighing tasks</small>
           </li>
           <li>
-            <strong>National First Prize</strong>
-            <span>China Intelligent Robot Fighting and Competition Contest</span>
+            <strong data-en="National First Prize" data-zh="国家一等奖">National First Prize</strong>
+            <span data-en="China Intelligent Robot Fighting and Competition Contest" data-zh="中国智能机器人格斗及竞技大赛">China Intelligent Robot Fighting and Competition Contest</span>
+            <small data-en="December 2025" data-zh="2025 年 12 月">December 2025</small>
+          </li>
+          <li>
+            <strong data-en="National Second Prize" data-zh="国家二等奖">National Second Prize</strong>
+            <span data-en="The 8th China University Intelligent Robot Innovation Competition" data-zh="第八届中国高校智能机器人创意大赛">The 8th China University Intelligent Robot Innovation Competition</span>
+            <small data-en="August 2025 · Provincial First Prize" data-zh="2025 年 8 月 · 省级一等奖">August 2025 · Provincial First Prize</small>
           </li>
         </ul>
       </section>
 
       <section>
-        <h2>Contact</h2>
-        <p>Feel free to reach out via <a href="mailto:sjoe66997@gmail.com">email</a> or <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a> for research discussions or collaboration.</p>
+        <h2 data-en="Contact" data-zh="联系方式">Contact</h2>
+        <p data-en="Feel free to reach out via <a href=&quot;mailto:sjoe66997@gmail.com&quot;>email</a> or <a href=&quot;https://github.com/sjoesys&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;>GitHub</a> for research discussions or collaboration." data-zh="欢迎通过 <a href=&quot;mailto:sjoe66997@gmail.com&quot;>邮件</a> 或 <a href=&quot;https://github.com/sjoesys&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;>GitHub</a> 与我交流研究或合作。">Feel free to reach out via <a href="mailto:sjoe66997@gmail.com">email</a> or <a href="https://github.com/sjoesys" target="_blank" rel="noreferrer">GitHub</a> for research discussions or collaboration.</p>
       </section>
     </article>
   </main>
 
   <footer>
     <div>© 2026 sjoe</div>
-    <div>Last updated August 2026</div>
+    <div>Last updated September 2026</div>
   </footer>
 
   <script>
     const toggle = document.getElementById('theme-toggle');
+    const langToggle = document.getElementById('lang-toggle');
     const preferred = localStorage.getItem('theme');
     if (preferred === 'dark') document.documentElement.dataset.theme = 'dark';
 
@@ -112,6 +125,21 @@
       syncIcon();
     });
     syncIcon();
+
+    const setLanguage = (lang) => {
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+      document.querySelectorAll('[data-en][data-zh]').forEach((node) => {
+        node.innerHTML = node.dataset[lang];
+      });
+      langToggle.textContent = lang === 'zh' ? 'EN' : '中';
+      localStorage.setItem('language', lang);
+    };
+
+    langToggle.addEventListener('click', () => {
+      const next = localStorage.getItem('language') === 'zh' ? 'en' : 'zh';
+      setLanguage(next);
+    });
+    setLanguage(localStorage.getItem('language') || 'en');
   </script>
 </body>
 </html>

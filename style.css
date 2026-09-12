@@ -70,14 +70,17 @@ a:hover { text-decoration: underline; }
 .nav-links { display: flex; align-items: center; gap: 42px; }
 .nav-links a { color: var(--heading); font-size: 17px; }
 
-#theme-toggle {
+#theme-toggle,
+#lang-toggle {
   border: 0;
   padding: 5px;
   color: var(--heading);
   background: transparent;
-  font-size: 22px;
   cursor: pointer;
 }
+
+#theme-toggle { font-size: 22px; }
+#lang-toggle { font-size: 16px; font-weight: 700; }
 
 .layout {
   width: min(var(--max-width), calc(100% - 40px));
